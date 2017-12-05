@@ -62,6 +62,12 @@ public class BigONotationTest {
         mBig4.binarySearch(767887);
     }
 
+    @Test
+    public void quickSortTest() {
+        mBig1.quickSort(0, mBig1.getItemsInArray());
+        mBig2.quickSort(0, mBig1.getItemsInArray());
+    }
+
 
 
 
